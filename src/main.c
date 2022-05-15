@@ -10,7 +10,7 @@ int main(int argc, char* argv[]) {
   } else if (num == 2) {
     printf( "2 arguments provided\n");
   } else {
-    printf( num << " arguments provided\n");
+    printf( " %d arguments provided\n",num);
   }
   if (argv != 0) {
     printf( "argv not null\n");; // intentional extra-semicolon
